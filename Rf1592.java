@@ -15,6 +15,9 @@ public class Rf1592{
 	sayFusuryu();
     }
 
+    /**
+     * 引数の値の階乗を返す
+     */
     public static BigInteger kaijo(long num){
 	BigInteger ret=BigInteger.ONE;
 	for(int i=0; i<num; i++){
@@ -23,11 +26,17 @@ public class Rf1592{
 	return ret;
     }
 
+    /**
+     * 今日の日付を表示
+     */
     public static void printToday(){
 	SimpleDateFormat fmt = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 	System.out.println(fmt.format(new Date()));
     }
 
+    /**
+     * ごあいさつ
+     */
     public static void sayFusuryu(){
 	System.out.println("We are Fukiko, Suou, Ryuna!!");
     }
