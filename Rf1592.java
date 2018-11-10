@@ -1,6 +1,9 @@
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * GitHub練習用
+ */
 public class Rf1592{
     public static void main(String[] ags){
 	System.out.println("Hello World");
